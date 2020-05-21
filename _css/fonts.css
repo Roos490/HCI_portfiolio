@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@font-face{
+	font-family: "Oswald-Bold.ttf";
+	src: url("fonts/Oswald-Bold.tt");
+	font-family: "Oswald-Regular.ttf";
+	src: url("fonts/Oswald-Regular.tt");
+	src: url("fonts/Oswald-Semibold.tt");
+	font-family: "Roboto";
+	src: url("fonts/Roboto-Regular.ttf");
+	src: url("fonts/Roboto-Bold.ttf");
+	font-family: "Lato";
+	src: url("fonts/Lato-Regular.ttf");
+}
+
+
+nav{
+	font-family:Oswald-Bold;
+}
+
+hgroup{
+	font-family: Oswald-Bold;
+}
+
+hgroup > h1{
+	font-family:  Oswald-Bold;
+}
+
+hgroup > h2{
+	font-family: Oswald-Regular;
+}
+
+#home > a{
+	font-family: Oswald-Semibold;
+}
+
+.card{
+	font-family: Roboto-Regular;
+}
+
+p{
+	font-family: Lato-Regular;
+}
+
+h1{
+	font-family: Oswald-Regular;
+}
+
+.tekst > a{
+	font-family: Lato-Regular;
+}
+
+#overmij > a{
+	font-family: Oswald-Regular;
+
+}
+
+#overmijaside{
+	font-family: Roboto-Regular;
+
+}
+
+#overmijaside> a{
+	font-family: Oswald-Regular;
+}
+
+h2{
+	font-family: Oswald-Regular;
+	margin-bottom: 0px;
+}
+
+h3{ 
+	font-family: Oswald-Regular;
+ }
+
+h6{
+	font-family: Roboto-Regular;
+}
+
+#portfolio > article > div > div > h1 {
+	font-family: Oswald-Semibold;
+}
+
+#portfolio > article > div > div > h2 {
+	font-family: Oswald-Semibold;
+}
+
+#portfolio > article > div > div > h3 {
+	font-family: Oswald-Semibold;
+}
+
+#portfolio > article > div > div > a{
+	font-family: Oswald-Semibold;
+}
+
+
+
