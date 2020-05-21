@@ -202,9 +202,3 @@ nav div.container > ul li:first-child{
 /* Start VR & AR CHALLENGE**/
 
 /**vr thinkering*/
-
-body > section:nth-child(4) > video{
-	margin-left: 5%;
-	margin-right: 5%;
-
-}
