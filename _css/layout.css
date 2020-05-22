@@ -114,7 +114,7 @@ nav div.container > ul li:first-child{
 }
 
 
-#portfolio > article > div > div > a{
+#challenge1 > div > a{
 	background-color: #004862;
 	height: 90px;
 	width: 250px;
@@ -127,8 +127,7 @@ nav div.container > ul li:first-child{
 	text-decoration: none;
 	text-align: center;
 }
-
-#portfolio > article > div > div > a:hover{
+#challenge1 > div > a:hover{
 	background-color: #254A5D;
 
 }
@@ -139,7 +138,6 @@ nav div.container > ul li:first-child{
 	flex-direction: row;
 	margin: 0px;
 	margin-bottom: 200px;
-	background-color: #DC5168;
 	background-image: url("../content/prwr.jpg");;
 	background-size: cover;
 }
@@ -153,7 +151,7 @@ nav div.container > ul li:first-child{
 
 }
 
-#portfolio > article > div:nth-child(2) > div > a{
+#challenge2 > div > a{
 	background-color: #00263A;
 	height: 90px;
 	width: 250px;
@@ -166,11 +164,15 @@ nav div.container > ul li:first-child{
 	text-decoration: none;
 	text-align: center;
 }
+#challenge2 > div > a:hover{
+	background-color: #254A5D;
+}
 /**challenge 3*/
 #portfolio > article > div:nth-child(3){
 	background-color: black;
-	background-image: url("../content/prac2.jpg");;
+	background-image: url("../content/prac3.jpg");;
 	background-size: cover;
+	padding-top: 10px;
 }
 #portfolio > article > div:nth-child(3) > img{
 	height: 290px;
@@ -181,7 +183,29 @@ nav div.container > ul li:first-child{
 }
 
 #challenge3 > div > a{
-	background-color: #9792AC;
+	background-color: #54818C;
+	height: 90px;
+	width: 250px;
+	padding-top: 10px;
+	margin-top: 90px;
+	margin-left: 590px;
+	color: white;
+	font-size: 3.3em;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+#challenge3 > div > h1{
+	color: white;
+	font-size: 2em;
+	margin-left: 30px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#challenge3 > div > h1:nth-child(1){
+	margin-bottom: 0px;
 }
 
 /**challenge 4*/
@@ -192,8 +216,9 @@ nav div.container > ul li:first-child{
 	margin: 0px;
 	margin-bottom: 200px;
 	background-color: black;;
-	background-image: url("../content/prpi.jpg");;
+	background-image: url("../content/prpi2.jpg");;
 	background-size: cover;
+	padding-top: 10px;
 
 }
 
@@ -207,7 +232,7 @@ nav div.container > ul li:first-child{
 
 }
 #portfolio > article > div:nth-child(4) > div > a{
-	background-color: #E6798C;
+	background-color: #1C2849;
 	height: 90px;
 	width: 250px;
 	padding-top: 10px;
@@ -218,7 +243,21 @@ nav div.container > ul li:first-child{
 	display: block;
 	text-decoration: none;
 	text-align: center;
+
 }
+
+#challenge4 > div > h1{
+	color: white;
+	font-size: 2em;
+	margin-left: 30px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#challenge4 > div > h1:nth-child(1){
+	margin-bottom: 0px;
+}
+
 /*EINDE INDEX HTML**/
 
 /* Start VR & AR CHALLENGE**/
