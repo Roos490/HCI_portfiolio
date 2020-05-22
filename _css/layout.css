@@ -95,7 +95,8 @@ nav div.container > ul li:first-child{
 
 /* begin 1e challenge **/
 #portfolio > article > div:nth-child(1){
-	background-color: #DC5168;
+	background-image: url("../content/vrpr1.jpg");
+	background-size: cover;
 
 }
 
@@ -105,7 +106,7 @@ nav div.container > ul li:first-child{
 	width: 250px;
 	padding-top: 10px;
 	margin-top: 100px;
-	margin-left: 175px;
+	margin-left: 600px;
 	color: white;
 	font-size: 3.3em;
 	display: block;
