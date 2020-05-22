@@ -168,7 +168,9 @@ nav div.container > ul li:first-child{
 }
 /**challenge 3*/
 #portfolio > article > div:nth-child(3){
-	background-color: black;;
+	background-color: black;
+	background-image: url("../content/prac2.jpg");;
+	background-size: cover;
 }
 #portfolio > article > div:nth-child(3) > img{
 	height: 290px;
@@ -176,6 +178,10 @@ nav div.container > ul li:first-child{
 	align-self: flex-end;
 	margin-bottom: 80px;
 	margin-right: 15px;
+}
+
+#challenge3 > div > a{
+	background-color: #9792AC;
 }
 
 /**challenge 4*/
@@ -186,6 +192,8 @@ nav div.container > ul li:first-child{
 	margin: 0px;
 	margin-bottom: 200px;
 	background-color: black;;
+	background-image: url("../content/prpi.jpg");;
+	background-size: cover;
 
 }
 
