@@ -97,16 +97,30 @@ nav div.container > ul li:first-child{
 #portfolio > article > div:nth-child(1){
 	background-image: url("../content/vrpr1.jpg");
 	background-size: cover;
+	padding-top: 10px;
 
 }
 
+#challenge1 > div > h1{
+	font-size: 2em;
+	color: white;
+	margin-left: 30px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#challenge1 > div > h1:nth-child(1){
+	margin-bottom: 0px;
+}
+
+
 #portfolio > article > div > div > a{
-	background-color: #E6798C;
+	background-color: #004862;
 	height: 90px;
 	width: 250px;
 	padding-top: 10px;
-	margin-top: 100px;
-	margin-left: 600px;
+	margin-top: 90px;
+	margin-left: 590px;
 	color: white;
 	font-size: 3.3em;
 	display: block;
@@ -114,13 +128,11 @@ nav div.container > ul li:first-child{
 	text-align: center;
 }
 
-#portfolio > article > div:nth-child(1) > img{
- width: 400px;
- height: auto;
- display: flex;
- align-self: flex-end;
+#portfolio > article > div > div > a:hover{
+	background-color: #254A5D;
 
 }
+
 /* begin 2e challenge*/
 #portfolio > article > div:nth-child(2){
 	display: flex;
@@ -128,20 +140,21 @@ nav div.container > ul li:first-child{
 	margin: 0px;
 	margin-bottom: 200px;
 	background-color: #DC5168;
-
+	background-image: url("../content/prwr.jpg");;
+	background-size: cover;
 }
 
-#portfolio > article > div:nth-child(2) > img{
-	height: 290px;
-	width: auto;
-	display: flex;
-	align-self: flex-end;
-	margin-right: 70px;
+#challenge2 > div > h1{
+	font-size: 2em;
+	color: white;
+	margin-left: 30px;
+	margin-bottom: 0px;
+	margin-top: 0px;
 
 }
 
 #portfolio > article > div:nth-child(2) > div > a{
-	background-color: #E6798C;
+	background-color: #00263A;
 	height: 90px;
 	width: 250px;
 	padding-top: 10px;
@@ -155,7 +168,7 @@ nav div.container > ul li:first-child{
 }
 /**challenge 3*/
 #portfolio > article > div:nth-child(3){
-	background-color: #DC5168;;
+	background-color: black;;
 }
 #portfolio > article > div:nth-child(3) > img{
 	height: 290px;
@@ -172,7 +185,7 @@ nav div.container > ul li:first-child{
 	align-self: flex-end;
 	margin: 0px;
 	margin-bottom: 200px;
-	background-color: #DC5168;;
+	background-color: black;;
 
 }
 
@@ -201,5 +214,19 @@ nav div.container > ul li:first-child{
 /*EINDE INDEX HTML**/
 
 /* Start VR & AR CHALLENGE**/
+
+body > section:nth-child(2) > h1{
+	font-size: 3.5em;
+	margin-bottom: 10px;
+}
+
+
+body > section:nth-child(3) > h3{
+	font-weight: normal;
+}
+
+body > section:nth-child(3) > p > a{
+	color: green;
+}
 
 /**vr thinkering*/
